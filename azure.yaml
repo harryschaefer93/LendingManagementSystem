@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: lms-poc
+metadata:
+  template: lms-poc
+services:
+  backend:
+    project: ./backend
+    host: appservice
+    language: python
+  frontend:
+    project: ./frontend
+    host: staticwebapp
+infra:
+  provider: bicep
+  path: ./infra

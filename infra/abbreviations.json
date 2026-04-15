@@ -1,0 +1,11 @@
+{
+  "appServicePlan": "asp-",
+  "applicationInsights": "appi-",
+  "databaseForPostgreSQLServer": "psql-",
+  "keyVault": "kv-",
+  "logAnalyticsWorkspace": "log-",
+  "resourceGroup": "rg-",
+  "staticWebApp": "stapp-",
+  "storageAccount": "st",
+  "webApp": "app-"
+}
